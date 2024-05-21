@@ -1,0 +1,21 @@
+body {
+    background: url('background.jpg');
+}
+
+canvas {
+border: 1px solid gray;
+margin-top: 20px;
+animation-name: filter;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes filter {
+    from{
+        box-shadow: 2px 2px 35px black;
+    }
+    to{
+        box-shadow: 2px 2px 35px pink;
+    }
+
+}
